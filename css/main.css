@@ -1,0 +1,30 @@
+body {
+    min-width: 320px;
+    min-height: 768px;
+}
+
+header {
+    /* background-image: url("../assets/shared/desktop/bg-pattern-circle.svg"); */
+}
+
+.nav-bar {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.burger-menu {
+    font-family: "Public Sans", sans-serif;
+    font-size: 20px;
+    color: #FBFCFE;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
