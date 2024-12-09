@@ -3,6 +3,11 @@ body {
     min-height: 768px;
 }
 
+h1 {
+    font-family: "DM Serif Display", serif;
+
+}
+
 .nav-bar {
     width: 80%;
     margin: 0 auto;
@@ -26,7 +31,20 @@ body {
 
 
 .hero-container {
-    
+    margin: 0 auto;
+    width: 327px;
+}
+
+.hero-container p {
+    font-family: "Public Sans", sans-serif;
+    font-size: 16px ;
+    color: #6C8294;
+}
+
+.contact {
+    font-weight: bold;
+    text-decoration: none;
+    color: grey;
 }
 
 @media screen and (min-width: 768px ) {
