@@ -4,6 +4,8 @@ body {
 
 h1 {
     font-family: "DM Serif Display", serif;
+    font-size: 32px;
+
 
 }
 
@@ -11,6 +13,7 @@ h1 {
     width: 80%;
     margin: 0 auto;
     margin-top: 40px;
+    margin-bottom: 48px;
 }
 
 .burger-menu a{
@@ -43,7 +46,12 @@ h1 {
     font-family: "Public Sans", sans-serif;
     font-size: 16px ;
     color: #6C8294;
-}
+    }
+
+    .img-phone {
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 .contact {
     font-weight: bold;
@@ -56,6 +64,10 @@ h1 {
     border-radius: 24px;
 }
 
+.form {
+    width: 90%;
+}
+
 .form-cta {
     width: 327px;
     font-family: "Public Sans", sans-serif;
@@ -65,7 +77,12 @@ h1 {
 }
 
 
-@media  screen and (min-width: 320px ) {
+.form-email {
+    padding-bottom: 16px;
+}
+
+
+@media  screen and (min-width: 320px) {
     .burger-menu {
         display: none;
     }
@@ -78,11 +95,15 @@ h1 {
         flex-direction: column;
     }
 
-
 }
 
 
 @media screen and (min-width: 768px ) {
+
+    h1 {
+        font-size: 48px;
+    }
+
     nav {
         display: flex;
         justify-content: space-around;
@@ -103,7 +124,12 @@ h1 {
         display: none;
     }
 
+    .img-phone {
+        width: 159px;
+    }
+
     .cta {
+        font-family: "Public Sans", sans-serif;
         display: flex;
         padding-right: 20px;
         padding-left: 20px;
@@ -120,14 +146,26 @@ h1 {
         flex-direction: row;
     }
 
+    
+    .form-send {
+        position: relative;
+        right: 150px;
+        }
+
+
+
     .form-cta {
         width: 173px;
     }
 
 }
 
-
 @media screen and (min-width: 1024px) {
+    .hero-container {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
     .nav-bar {
         max-width: 1100px;
 
