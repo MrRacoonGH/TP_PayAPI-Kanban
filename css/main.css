@@ -6,7 +6,6 @@ h1 {
     font-family: "DM Serif Display", serif;
     font-size: 32px;
     color: #36536B;
-    text-align: center;
 
 }
 
@@ -47,6 +46,7 @@ h1 {
     font-family: "Public Sans", sans-serif;
     font-size: 16px ;
     color: #6C8294;
+    padding-bottom: 78px    ;
     }
 
     .img-phone {
@@ -100,6 +100,48 @@ h1 {
         flex-direction: column;
     }
 
+    .caption-partners {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .partners h2 {
+        font-family: "DM Serif Display", serif;
+        font-size: 32px;
+        color: #FBFCFE;
+    }
+
+    .partners p {
+        font-family: "Public Sans", sans-serif;
+        font-size: 16px;
+        color: #FBFCFE;
+        opacity: 50%;
+    }
+
+    .partners a {
+        font-family: "Public Sans", sans-serif;
+        color: #FBFCFE;
+        text-decoration: none;
+        border-radius: 24px;
+        padding-top: 16px;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-bottom: 16px;
+        border: 2px solid white;
+    }
+
+    .img-partners {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo-partners {
+        display: flex;
+        flex-direction: row;
+        justify-content: center
+    }
+
+
 }
 
 
@@ -115,7 +157,7 @@ h1 {
     }
     
     .nav-menu {
-        width: 90%;
+        width: 100%;
     }
 
     .burger-menu {
@@ -178,3 +220,5 @@ h1 {
 
 
 }
+
+
