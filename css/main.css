@@ -160,6 +160,39 @@ h1 {
     color: #6C8294;
 }
 
+.solution-ux-ui {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-ux-ui {
+    display: flex;
+    justify-content: space-around;
+}
+
+.avantages {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.avantages-caption {
+    text-align: center;
+}
+
+.avantages h3 {
+    font-family: "Public Sans", sans-serif;
+    font-size: 18px;
+    color: #36536B;
+}
+
+.avantages p {
+    font-family: "Public Sans", sans-serif;
+    font-size: 16px;
+    color: #6C8294  ;
+}
 
 
 
@@ -251,9 +284,6 @@ h1 {
         position: relative;
     }
 
-
-    .form-send {}
-
     .form-cta {
         position: absolute;
         right: 0;
@@ -270,6 +300,12 @@ h1 {
         font-size: 48px;
     }
 
+    .solution-container {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+
+    }
 
 
 }
@@ -325,6 +361,7 @@ h1 {
     .caption-partners {
         text-align: left;
         max-width: 445px;
+        display: block;
     }
 
     .solution {
@@ -334,7 +371,16 @@ h1 {
 
     .solution-caption {
         text-align: left;
-    }
+   }
 
-    .solution img {}
+   .implement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+   }
+
+   .solution-ux-ui {
+    display: flex;
+    flex-direction: row;
+       }
 }
